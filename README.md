@@ -17,13 +17,13 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![desktop screenshot](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/screenshots/four-card-feature-section-desktop-screenshot.png)
+![desktop screenshot](https://github.com/hamze-kabi/four-card-feature-section/blob/main/screenshots/four-card-feature-section-desktop-screenshot.png)
 
-[mobile screenshot](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/screenshots/four-card-feature-section-mobile-screenshot.png)
+[mobile screenshot](https://github.com/hamze-kabi/four-card-feature-section/blob/main/screenshots/four-card-feature-section-mobile-screenshot.png)
 
 ### Links
 
-- Solution URL: [index.html](https://github.com/HamzeKabi/four-card-feature-section/blob/bee8fcb3ce2db67af6cdf3f0b4b77e0dc861249c/index.html)
+- Solution URL: [https://github.com/hamze-kabi/four-card-feature-section](https://github.com/hamze-kabi/four-card-feature-section)
 - Live Site URL: [https://hamzekabi.github.io/four-card-feature-section/](https://hamzekabi.github.io/four-card-feature-section/)
 
 ## My process
@@ -45,5 +45,4 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Author
 
-- Github - [https://github.com/HamzeKabi](https://github.com/HamzeKabi)
-- Frontend Mentor - [@HamzeKabi](https://www.frontendmentor.io/profile/HamzeKabi)
+- Github - [https://github.com/hamze-kabi](https://github.com/hamze-kabi)
