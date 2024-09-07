@@ -1,0 +1,89 @@
+@import "normalize.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-light-gray);
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.563rem;
+  font-family: Poppins;
+  width: 19.375rem;
+  margin: 5.625rem auto;
+}
+body .container .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-area: text;
+}
+body .container .text #text-sec-h2-1 {
+  font-weight: 300;
+  color: hsl(229, 6%, 66%);
+  margin-bottom: 0;
+}
+body .container .text #text-sec-h2-2 {
+  color: hsl(234, 12%, 34%);
+}
+body .container .text p {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  text-align: center;
+}
+body .container .card {
+  padding: 1.75rem;
+  color: hsl(234, 12%, 34%);
+  border-radius: 0.4rem;
+  box-shadow: 0px 13px 100px -30px gray;
+}
+body .container .card h3 {
+  font-weight: 600;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+body .container .card p {
+  font-size: 0.7rem;
+  line-height: 1.3rem;
+  color: hsl(229, 6%, 66%);
+  margin-top: 0.3rem;
+}
+body .container .card svg {
+  float: right;
+}
+body .container .no1 {
+  border-top: 4px solid hsl(180, 62%, 55%);
+  grid-area: no1;
+}
+body .container .no2 {
+  border-top: 4px solid hsl(0, 78%, 62%);
+  grid-area: no2;
+}
+body .container .no3 {
+  border-top: 4px solid hsl(34, 97%, 64%);
+  grid-area: no3;
+}
+body .container .no4 {
+  border-top: 4px solid hsl(212, 86%, 64%);
+  grid-area: no4;
+}
+
+@media only screen and (min-width: 376px) {
+  body .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "text text text" "no1 no2 no4" "no1 no3 no4";
+    width: auto;
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+  body .container .text p {
+    width: 32rem;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

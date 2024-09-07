@@ -1,0 +1,118 @@
+@import "normalize.css";
+
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$very-dark-blue: hsl(234, 12%, 34%);
+$grayish-blue: hsl(229, 6%, 66%);;
+$very-light-gray: hsl(0, 0%, 98%);
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--very-light-gray);
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.563rem;
+    font-family: Poppins;
+    width: 19.375rem;
+    margin: 5.625rem auto;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      grid-area: text;
+
+      #text-sec-h2-1 {
+        font-weight: 300;
+        color: $grayish-blue;
+        margin-bottom: 0;
+      }
+
+      #text-sec-h2-2 {
+        color: $very-dark-blue;
+      }
+
+      p {
+        color: $grayish-blue;
+        font-size: 15px;
+        text-align: center;
+      }      
+    }
+
+    .card {
+      padding: 1.75rem;
+      color: $very-dark-blue;
+      border-radius: 0.4rem;;
+      box-shadow: 0px 13px 100px -30px gray;
+
+      h3 {
+        font-weight: 600;
+        margin-bottom: 0;
+        margin-top: 0;
+      }
+
+      p {
+        font-size: 0.7rem;
+        line-height: 1.3rem;
+        color: $grayish-blue;
+        margin-top: 0.3rem;
+      }
+
+      svg {
+        float: right;
+      }
+    }
+
+    .no1 {
+      border-top: 4px solid $cyan;
+      grid-area: no1;
+    }
+
+    .no2 {
+      border-top: 4px solid $red;
+      grid-area: no2;
+    }
+
+    .no3 {
+      border-top: 4px solid $orange;
+      grid-area: no3;
+    }
+
+    .no4 {
+      border-top: 4px solid $blue;
+      grid-area: no4;
+    }
+  }
+}
+
+
+@media only screen and (min-width: 376px) {
+  body {
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-areas:
+        "text text text"
+        "no1 no2 no4"
+        "no1 no3 no4";
+      width: auto;
+      margin-right: 5rem;
+      margin-left: 5rem;
+
+      .text {
+        p {
+          width: 32rem;
+        }
+      }
+    }
+  }
+}
