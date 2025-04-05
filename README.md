@@ -24,7 +24,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
 ### Links
 
 - Solution URL: [https://github.com/hamze-kabi/four-card-feature-section](https://github.com/hamze-kabi/four-card-feature-section)
-- Live Site URL: [https://hamzekabi.github.io/four-card-feature-section/](https://hamzekabi.github.io/four-card-feature-section/)
+- Live Site URL: [https://hamze-kabi.github.io/four-card-feature-section/](https://hamze-kabi.github.io/four-card-feature-section/)
 
 ## My process
 
